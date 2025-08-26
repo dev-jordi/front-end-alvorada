@@ -1,4 +1,4 @@
 # front-end-alvorada
 ```
-começando pelo começo
+começando pelo começo sem gpeteco
 ```
