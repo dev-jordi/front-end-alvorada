@@ -1,84 +1,49 @@
- Manual de Referência – HTML Básico II
-1. Tags de Formatação Complementar
- Quebra de linha
-<p>Primeira linha<br>Segunda linha</p>
- O <br> insere uma quebra de linha dentro de um parágrafo.
- Linha horizontal
-<p>Seção 1</p>
-<hr>
-<p>Seção 2</p>
- O <hr> insere uma linha horizontal de separação.
- Citação longa
-<blockquote>
- “A simplicidade é o último grau de sofisticação.” – Leonardo da Vinci
-</blockquote>
- O <blockquote> destaca citações em bloco.
- Abreviações
-<p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr>.</p>
- O <abbr> mostra o significado de uma sigla quando o usuário passa o mouse 
-sobre ela.
- Marcação de texto
-<p>Essa informação é <mark>muito importante</mark> para o exame.</p>
- O <mark> destaca trechos de texto.
-2. Listas
- Lista não ordenada
-<ul>
- <li>Maçã</li>
- <li>Banana</li>
- <li>Laranja</li>
-</ul>
- Apresenta itens com marcadores (pontos).
- Lista ordenada
-<ol>
- <li>Passo 1</li>
- <li>Passo 2</li>
- <li>Passo 3</li>
-</ol>
- Apresenta itens numerados.
- Lista de definição
-<dl>
- <dt>HTML</dt>
- <dd>Linguagem de marcação para páginas web.</dd>
- <dt>CSS</dt>
- <dd>Folhas de estilo para layout e design.</dd>
-</dl>
- Mostra termos e suas descrições.
-3. Listas Aninhadas
-Uma lista aninhada é uma lista dentro de outra lista.
-Exemplo:
-<h3>Meus Estudos</h3>
-<ul>
- <li>Front-end
- <ul>
- <li>HTML</li>
- <li>CSS</li>
- <li>JavaScript</li>
- </ul>
- </li>
- <li>Back-end
- <ul>
- <li>Node.js</li>
- <li>Banco de Dados</li>
- </ul>
- </li>
-</ul>
- Aqui, cada item da lista principal contém outra lista detalhando sub-itens.
-4. Resumo em Tabela
-Tag Função
-<br> Quebra de linha
-<hr> Linha horizontal
-Tag Função
-<blockquote> Citação em bloco
-<abbr> Abreviação/sigla com significado
-<mark> Destacar texto
-<ul> Lista não ordenada
-<ol> Lista ordenada
-<li> Item de lista
-<dl> Lista de definição
-<dt> Termo de definição
-<dd> Descrição de definição
-
-
-
-
-
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+</head>
+<body>
+    <h1>Meu Perfil</h1>
+    <p>Olá! Meu nome é <strong>Jordi Branger</strong> e sou um <em>desenvolvedor</em> apaixonado por tecnologia. 
+        Adoro aprender coisas novas e compartilhar conhecimento. Uma palavra que me define é <mark>curiosidade</mark>.</p>
+    <hr>
+    <h2>Formação</h2>
+    <p>Sou formando em ADS pela ESTÁCIO.<br>
+        Durante meus estudos, aprendi sobre diversas tecnologias, incluindo <abbr title="Inteligência Artificial">IA</abbr> e Python.
+    </p>
+    <blockquote>"Só é verdadeiramente livre quem está sempre pronto a morrer.." - Diogenes o Cínico</blockquote>
+    <hr>
+    <h2>Experiência Profissional</h2>
+    <ol>
+        <li>Assistente Técnico - Digicon SA (2024-Atualmente)</li>
+        <li>WEG Equipamentos Elétricos SA (2013-2023)</li>
+    </ol>
+    <hr>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Leitura</li>
+        <li>Programação
+            <ul>
+                <li>Desenvolvimento de Aplicações</li>
+                <li>Automação em Python</li>
+            </ul>
+        </li>
+        <li>Caminhadas</li>
+    </ul>
+    <hr>
+    <h2>Curiosidades</h2>
+    <dl>
+        <dt>IA</dt>
+        <dd>O desenvolvimento da IA se deu de forma plena no século XX, logo após a Segunda Guerra Mundial</dd>
+        <dt>Alan Turing</dt>
+        <dd>O matemático Alan Turing, em 1936, introduziu a ideia de que máquinas poderiam simular o raciocínio humano com sua "Máquina de Turing".</dd>
+    </div>
+    </dl>
+        <img src="https://thafd.bing.com/th/id/OIP.UdSt_wqdA0RnmtvHSdlyqAHaEK?w=288&h=180&c=7&r=0&o=7&pid=1.7&rm=32" alt="Centered Image">
+        <p>Pombos foram utilizados na segunda guerra para guiar misseis</p>
+    </div>
+    
+</body>
+</html>
