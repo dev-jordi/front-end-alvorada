@@ -1,0 +1,28 @@
+    body { 
+        font-family: Arial, sans-serif;
+        margin: 0; padding:  0;
+    }
+    header { 
+        background-color: #e2b41d;
+        color: white;
+        text-align: center; 
+    }
+    main { 
+        display: flex;
+    }
+    main section { 
+        flex: 3;
+        margin-right: 20px;
+    }
+    aside { 
+        flex: 1; background-color: #f9f9f9;
+        padding: 10px;
+    }
+    article { 
+        border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+    }
+    footer { 
+        background-color: #e2b41d; color: white;
+        text-align: center; width: 99%; height: 50px; margin: auto; bottom: 0;}
+
