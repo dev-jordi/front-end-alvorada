@@ -7,24 +7,12 @@
         color: white;
         text-align: center; 
     }
-    nav { 
-        background-color: #f2f2f2;
-    }
-    nav a {
-        margin: 0 15px;
-        text-decoration: none;
-        color: #333; 
-    }
     main { 
         display: flex;
     }
     main section { 
         flex: 3;
         margin-right: 20px;
-    }
-    aside { 
-        flex: 1; background-color: #f9f9f9;
-        padding: 10px;
     }
     footer { 
         background-color: #333; color: white;
@@ -35,8 +23,4 @@
         left: 0;
         bottom: 0; 
         width: 100%;
-    }
-    article { 
-        border-bottom: 1px solid #ccc;
-        padding: 10px 0;
     }
