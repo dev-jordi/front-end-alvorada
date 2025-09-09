@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercício 2 - Formulário de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Escola Futuro Digital</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="nome" required><br><br>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="idade"required><br><br>
+            <label for="turma">Turma:</label>
+            <input type="text" id="turma" name="turma" placeholder="turma" required><br><br>
+            <fieldset>
+                <legend>Preferências de Disciplinas:</legend>
+                <input type="checkbox" id="matematica" name="disciplinas" value="Matemática">
+                <label for="matematica">Matemática</label><br>
+                <input type="checkbox" id="portugues" name="disciplinas" value="Português">
+                <label for="portugues">Português</label><br>
+                <input type="checkbox" id="ciencias" name="disciplinas" value="Ciências">
+                <label for="ciencias">Ciências</label><br>
+                <input type="checkbox" id="historia" name="disciplinas" value="História">
+                <label for="historia">História</label><br>
+                <input type="checkbox" id="geografia" name="disciplinas" value="Geografia">
+                <label for="geografia">Geografia</label><br>
+            </fieldset><br>
+            <label for="turno">Turno:</label>
+            <select id="turno" name="turno" required>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+    <p>
+        Endereço: Rua do Futuro, 123 - Cidade Digital</p>
+    </p>
+</html>
