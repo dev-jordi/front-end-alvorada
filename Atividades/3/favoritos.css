@@ -12,7 +12,12 @@ body {
 }
 
 footer {
-  justify-content: center;
+
   text-align: center;
-  margin: auto;
+  width: 100%; 
+  height: 50px; 
+  margin: auto; 
+  bottom: 0;
+  position: fixed;
+  
 }

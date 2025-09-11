@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Regras para formatação do cabeçalho da página */
+
+#cabecalho {
+    color: #FEF3C7; 
+    background-color: #913411;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    background-image: url(cafe.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#cabecalho h1 {
+    color: white;
+    font-weight: 800;
+    margin-left: 70px;
+}
+
+#cabecalho p {
+    font-size: 13pt;
+    margin-left: 70px;
+}
+
+/* Regras para formatação do conteúdo principal da página */
+
+#chamada {
+    background-color: #F7E7D0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.destaque {
+    color: white;
+    background-color: #DF6C08;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#chamada h1 {
+    font-size: 40pt;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#chamada h1 strong {
+    color: #E06B09;
+}
+
+#ofertas {
+    background-color: #FFF9EC;
+    padding: 30px;
+}
+
+.boxoferta {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FDDC87;
+    border-width: 4px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.boxoferta h2 {
+    color: #CC7006;
+}
+
+.boxoferta h2 strong {
+    color: black;
+}
+
+.boxoferta p {
+    margin-top: 20px;
+}
+
+.rotulo {
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: #CC7006;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px gray;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+/* Regras para formatação do rodapé da página */
+
+footer {
+    color: #FEF3C7;
+    background-color: #913411;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
