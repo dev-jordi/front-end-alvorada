@@ -6,6 +6,8 @@ header {
         background-color: #3485e2;
         color: white;
         text-align: center; 
+        border-radius: 20px;
+        background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/moon-surface-seamless-texture-free-photo.png?w=2210&quality=70');
 }
 
 main { 
@@ -18,6 +20,8 @@ main {
     border-left: 30px;
     border-right: 30px;
     border-top: 30px;
+    background-color: #3485e2;
+    background-image: url('https://img.freepik.com/premium-photo/checkered-pattern-paper-texture-blank-paper-sheet-background_434420-2483.jpg?w=2000'), linear-gradient(45deg, #3485e2 25%, transparent 25%, transparent 50%, #3485e2 50%, #3485e2 75%, transparent 75%, transparent);
 }
 
 .div-center {
@@ -38,5 +42,4 @@ footer {
     height: 50px; 
     margin: auto; 
     bottom: 0;
-    position: fixed;
 }
