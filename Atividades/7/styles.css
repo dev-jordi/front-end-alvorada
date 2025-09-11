@@ -16,6 +16,25 @@ main {
     border-top: 30px;
 }
 
+.div-center {
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.glossario-container {
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
 footer {
     background-color: #3485e2; 
     color: white;
