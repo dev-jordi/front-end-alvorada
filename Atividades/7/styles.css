@@ -1,10 +1,14 @@
 header { 
-        background-color: #3485e2;
-        color: white;
-        text-align: center; 
+    background-color: #3485e2;
+    color: white;
+    text-align: center; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-main { 
+main {
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-black-background-texture-advertising-picture-image_975103.jpg);
+    color: white;
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -14,6 +18,7 @@ main {
     border-left: 30px;
     border-right: 30px;
     border-top: 30px;
+    text-align: center;
 }
 
 .div-center {
@@ -34,14 +39,21 @@ main {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
+.card {
+    color: black;
+    text-align: justify;
+    background-color: #3485e2;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    padding: 30px;
+    width: 80vh;
+    margin-bottom: 15px;
+}
 
 footer {
-    background-color: #3485e2; 
+    background-color: #3485e2;
     color: white;
-    text-align: center;
-    width: 100%; 
-    height: 50px; 
-    margin: auto; 
-    bottom: 0;
-    position: fixed;
+    text-align: center; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
