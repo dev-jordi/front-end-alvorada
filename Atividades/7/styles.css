@@ -1,9 +1,10 @@
 header { 
-    background-color: #3485e2;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/13/08/40/1000_F_213084028_Vs3GWRGCUayijpLgooEYd8X5gmm0qmaB.jpg);
     color: white;
     text-align: center; 
     padding-top: 15px;
     padding-bottom: 15px;
+
 }
 
 main {
@@ -51,7 +52,7 @@ main {
 }
 
 footer {
-    background-color: #3485e2;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/13/08/40/1000_F_213084028_Vs3GWRGCUayijpLgooEYd8X5gmm0qmaB.jpg);
     color: white;
     text-align: center; 
     padding-top: 15px;
