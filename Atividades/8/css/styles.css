@@ -38,6 +38,7 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 .destaque {
@@ -60,6 +61,9 @@ body {
 #ofertas {
     background-color: #FFF9EC;
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .boxoferta {
