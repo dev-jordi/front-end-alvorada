@@ -11,24 +11,48 @@
 }
 
 header {
+    font-size: large;
     grid-area: header;
     background: #0077b6;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 20px;
+}
+.menu {
+    justify-content: end;
 }
 
 nav {
-    grid-area: menu;
-    background: #0077b6;
-    padding: 10px;
+  grid-area: menu;
+  background: #0077b6;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+
+}
+
+.botao-nav {
+  background-color: #03045e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-nav:hover {
+  background-color: #023e8a;
 }
 
 main {
     grid-area: main;
     background-image: url('https://cdn.pixabay.com/photo/2016/09/09/16/18/seamless-1657428_1280.jpg') ;
-    padding: 10px;
+    padding: 30px;
     height: 80vh;
     justify-content: center;
     align-items: center;
@@ -55,11 +79,10 @@ main {
 }
 
 #perfil {
-    max-width: 100
-    
-    px;
+    max-width: 100px;
     height: auto;
     border-radius: 50%;
+    border: 2px solid blue;
 }
 
 
@@ -73,9 +96,6 @@ main {
     transform: scale(1.05);
 }
 
-
-
-
 footer {
     grid-area: footer;
     background: #0077b6;
@@ -86,14 +106,11 @@ footer {
     position: fixed;
     text-align: center;
     width: 100%; 
-    height: 50px; 
+    height: 70px; 
     margin: auto; 
     bottom: 0;
     position: fixed;
 }
-
-
-
 
 /* 🔹 Responsividade */
 @media (max-width: 768px) {
@@ -108,6 +125,10 @@ footer {
     }
     nav {
     order: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin-left: 50px;
     }
 }
 
