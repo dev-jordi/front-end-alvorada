@@ -1,0 +1,126 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 200px 1fr 100px;
+    grid-template-rows: 60px 1fr 40px;
+    height: 100vh;
+    gap: 5px;
+}
+
+header {
+    grid-area: header;
+    background: #0077b6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    grid-area: menu;
+    background: #0077b6;
+    padding: 10px;
+}
+
+main {
+    grid-area: main;
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/09/16/18/seamless-1657428_1280.jpg') ;
+    padding: 10px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    background: #f0f0f0;
+    padding: 10px;
+
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#perfil {
+    max-width: 100
+    
+    px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.galeria .item {
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.galeria .item:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+footer {
+    grid-area: footer;
+    background: #0077b6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    height: 50px; 
+    margin: auto; 
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+
+/* 🔹 Responsividade */
+@media (max-width: 768px) {
+    .container {
+    grid-template-areas:
+        "header"
+        "menu"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    }
+    nav {
+    order: 2;
+    }
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 768px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+}
