@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <title>Dias Vividos</title>
+ <style>
+ body { font-family: Arial; background: #eef; padding: 20px; }
+ .card { background: white; padding: 20px; border-radius: 8px; 
+width: 300px; }
+ input, button { margin-top: 10px; width: 100%; padding: 6px; }
+ span { font-weight: bold; color: purple; }
+ </style>
+</head>
+<body>
+ <div class="card">
+ <h2>Dias Vividos</h2>
+ <label>Idade (anos):</label>
+ <input type="number" id="idade" /> 
+    <button onclick="calcularDias()">Calcular Dias Vividos</button>
+    <p>Resultado: <span id="resultado">---</span></p>
+    </div>
+    <script>
+    function calcularDias() {
+    let idade = Number(document.getElementById("idade").value);
+    let resultado = document.getElementById("resultado");
+    let dias = idade * 365;
+    resultado.textContent = dias + " dias";
+    }
+    </script>
+</body>
+</html>

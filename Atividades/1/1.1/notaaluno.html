@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <link rel="stylesheet" href="style.css">
+
+ <meta charset="UTF-8">
+ <title>Sistema academico</title>
+ <style>
+ body { font-family: Arial; background: #eef; padding: 20px; }
+ .card { background: white; padding: 20px; border-radius: 8px; width: 300px; }
+ input, button { margin-top: 10px; width: 100%; padding: 6px; }
+ span { font-weight: bold; color: purple; }
+ </style>
+</head>
+<body>
+ <div class="card">
+ <h2>Cálculo da Nota do Aluno</h2>
+ <label>Nota</label>
+ <input type="number" id="nota" min:"0" max: "10">
+
+ <button onclick="verificar()">Calcular Nota Final</button>
+ <p>Resultado: <span id="resultado">---</span></p>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>

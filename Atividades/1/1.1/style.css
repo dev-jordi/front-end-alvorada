@@ -1,0 +1,16 @@
+span {
+    font-weight: bold;
+    color: blue;
+}
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
+.recuperacao {
+    color: orange;
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <title>Dia da Semana</title>
+ <style>
+ body { font-family: Arial; background: #eef; padding: 20px; }
+ .card { background: white; padding: 20px; border-radius: 8px; 
+width: 300px; }
+ select, button { margin-top: 10px; width: 100%; padding: 6px; }
+ span { font-weight: bold; color: purple; }
+ </style>
+</head>
+<body>
+ <div class="card">
+ <h2>Dia da Semana</h2>
+ <label>Escolha um número (1 a 7):</label>
+ <select id="numero">
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <option value="4">4</option>
+ <option value="5">5</option>
+ <option value="6">6</option>
+ <option value="7">7</option>
+ </select>
+ <button onclick="mostrarDia()">Mostrar Dia</button>
+ <p>Resultado: <span id="resultado">---</span></p>
+ </div>
+ <script>
+ function mostrarDia() {
+ let numero = Number(document.getElementById("numero").value);
+ let resultado = document.getElementById("resultado");
+ switch (numero) {
+ case 1:
+ resultado.textContent = "Domingo";
+ break;
+ case 2:
+ resultado.textContent = "Segunda-feira";
+ break;
+ case 3:
+ resultado.textContent = "Terça-feira";
+ break;
+ case 4:
+ resultado.textContent = "Quarta-feira";
+ break;
+ case 5:
+ resultado.textContent = "Quinta-feira";
+ break;
+ case 6:
+ resultado.textContent = "Sexta-feira";
+ break;
+ case 7:
+ resultado.textContent = "Sábado";
+ break;
+ default:
+ resultado.textContent = "Número inválido.";
+ }
+ }
+ </script>
+</body>
+</html>
