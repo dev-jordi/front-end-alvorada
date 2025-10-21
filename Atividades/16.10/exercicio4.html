@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora SAC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Calculadora SAC</h3>
+        <form id="form-sac">
+            <input type="number" id="valor_total" placeholder="Valor total financiado" required step="0.01">
+            <input type="number" id="numero_parcelas" placeholder="Número de parcelas" required>
+            <input type="number" id="taxa_juros" placeholder="Taxa de juros mensal (%)" required step="0.01">
+            <button type="submit">Calcular Parcelas</button>
+        </form>
+        <div id="resultado_sac"></div>
+    </div>
+
+    <script src="exercicio4.js" defer></script>
+</body>
+</html>

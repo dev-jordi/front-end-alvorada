@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="valor_metros">Valor em Metros:</label>
+            <input type="number" id="valor_metros"><br><br>
+            <label for="unidade">Converter para:</label>
+            <select id="unidade">
+                <option value="cm">Centímetros</option>
+                <option value="mm">Milímetros</option>
+                <option value="km">Quilômetros</option>
+            </select><br><br>
+            <button type="button">Converter</button>
+        </form>
+        <p id="resultado_conversao"></p>
+    </div>
+
+    <script src="exercicio3.js" defer></script>
+</body>
+</html>
