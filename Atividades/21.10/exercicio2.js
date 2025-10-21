@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         lottery.addName(inputNome.value.trim());
         inputNome.value = '';
-        inputNome.focus();
+        inputNome.focus();bnvbhnb
     });
 
     sortearBtn.addEventListener('click', () => {
