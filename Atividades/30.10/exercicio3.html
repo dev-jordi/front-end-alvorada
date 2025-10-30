@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Referências ABNT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de Referências ABNT</h2>
+        <form id="form-referencia">
+            <input type="text" id="autor" placeholder="Autor(es)" required>
+            <input type="text" id="titulo" placeholder="Título do livro" required>
+            <input type="text" id="subtitulo" placeholder="Subtítulo (opcional)">
+            <input type="text" id="edicao" placeholder="Edição">
+            <input type="text" id="local" placeholder="Local de publicação" required>
+            <input type="text" id="editora" placeholder="Editora" required>
+            <input type="number" id="ano" placeholder="Ano de publicação" required>
+            <button type="submit">Gerar referência</button>
+        </form>
+        <div id="referencia-gerada"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html> 
