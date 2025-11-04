@@ -41,7 +41,7 @@ let produtos = [];
     }
 
 
-//------------------------------------------------------------------------------    
+/*------------------------------------------------------------------------------*/    
 
 class ContactList {
     constructor(listElement) {
@@ -98,6 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+/*------------------------------------------------------------------------------*/    
 
 document.getElementById("form-referencia").addEventListener("submit", function (event) {
   event.preventDefault();

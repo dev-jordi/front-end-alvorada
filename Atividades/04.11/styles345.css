@@ -1,0 +1,11 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .campo {
+      margin-bottom: 20px;
+    }
+    .aviso {
+      color: red;
+      font-size: 0.9em;
+    }
