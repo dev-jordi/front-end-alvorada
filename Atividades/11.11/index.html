@@ -1,0 +1,55 @@
+<html lang="pt-BR">
+    <head>
+        <title>IFMovies</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <p class="logo">IFMovies</p>
+            <div class="pesquisa">
+                <input id="inPesquisa" type="search"/>
+                <button id="btnPesquisar">Pesquisar</button>
+            </div>
+        </header>
+        <main id="conteudo">
+        </main>
+
+        <div id="bg-painel-oculto">
+            <div id="painel-oculto">
+                <img id="painel-poster"/>
+                <h2 id="painel-titulo"></h2>
+                <table>
+                    <tr>
+                        <th>Ano:</th>
+                        <td id="painel-ano"></td>
+                    </tr>
+                    <tr>
+                        <th>Duração:</th>
+                        <td id="painel-duracao"></td>
+                    </tr>
+                    <tr>
+                        <th>Gênero:</th>
+                        <td id="painel-genero"></td>
+                    </tr>
+                    <tr>
+                        <th>Diretor:</th>
+                        <td id="painel-diretor"></td>
+                    </tr>
+                    <tr>
+                        <th>Escritores:</th>
+                        <td id="painel-escritores"></td>
+                    </tr>
+                    <tr>
+                        <th>Atores</th>
+                        <td id="painel-atores"></td>
+                    </tr>
+                </table>
+                <hr/>
+                <p id="sinopse"></p>
+                <button id="btn-fechar">Fechar</button>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
